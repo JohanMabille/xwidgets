@@ -20,7 +20,7 @@ namespace xw
      * (_e.g._ jupyterlab) and the backend (kernel).
      * This function will register the target with Xeus upon first call.
      */
-    xeus::xtarget* get_widget_target();
+    const xeus::xtarget* get_widget_target();
 }
 
 #endif
