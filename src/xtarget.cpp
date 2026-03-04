@@ -79,7 +79,7 @@ namespace xw
         }
     }
 
-    xeus::xtarget* get_widget_target()
+    const xeus::xtarget* get_widget_target()
     {
         // Making a dummy static variable to only call the registration once.
         static const auto initialized = []()
